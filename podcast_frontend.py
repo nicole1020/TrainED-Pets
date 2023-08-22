@@ -23,7 +23,7 @@ def main():
         st.header("TrainED Pets Content")
 
         # Display the podcast title
-        st.subheader(podcast_info['episode_title'])
+        st.subheader("Episode Title)
         st.write(podcast_info['podcast_details']['episode_title'])
 
         # Display the podcast summary and the cover image in a side-by-side layout
